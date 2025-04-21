@@ -1,0 +1,33 @@
+{
+	"name": "ds_boston_source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStoragels",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "boston_data.zip",
+				"container": "bostonservicezip"
+			},
+			"columnDelimiter": ",",
+			"compressionCodec": "ZipDeflate",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "PK\u0003\u0004\u0014\u0000\u0000\u0000\b\u0000Y��Zm��v#M�\u0001�\u001ah\b \u0000\u0000\u0000boston_service_requests_2018.csv��r\u001bG�6�\"�\u001ej{#zf\" 8�?����V�-�\u0015�혈7�\u0001�e\u0011+\u0010�\u0000�d���?���\u0016���*0++\u0001R%Y�g�ۖ�de���y>�<�9���������]-v�/��?��O���]�r���V�_���v��]�6��\u001a�ڬ�/o[?o�_��w�����m��m��G��~��v�o���j?�~��t����og���b��m�{|�v����w7����0��js��/a�K����n�]w\u001f�\u001f��Z�?�r��__-W�#���*��n��n�n�7����_v��\u0003<�{x��b{=�۶W�5|��\u000e��ݶ�B�\u000bx\u0001�������\\�\u0000|���/6�w��w���\u0017����6�۫��\u0017:��\u0012UƘ\u0019#�<#\u0014��\b� 삐�� ˈ� ���\u0017o��T�J�jf%���=���]/�mv�\u0005�)������My��6�\u000f��\u000f�����b�>�?���b��쳷m�[�@\u000eY{ۂ��W��\u000f���j���:�-�\u0013�-v��b�Ζ�l�_�V����z�~��^� ��>�u��.כ�٫��#�����z�\u001b�m�����g��߂���7����z�\u000e��%�_�]ຟ����o�T� 3x���\u0016�\u000b_-`\u001e����ٌ\u000b�\u000b\u0016����f�Z��\u0017+���<�����،�����̆�Q2�\u0019�JF�Zx",
+				"type": "String"
+			},
+			{
+				"name": "��̯\"؜\u0019\u000b�(b�\u0005A͞i:�T[C4�V(\u0006���\u0007�\u0010R+�\u0005��-)k\u001aS�ZҒ��Դєh&�\u0014dVn�;�z��@̫տ�`�Y\u0012m2�p��{�_p2\u0018���\u0010\u0017�L�w0Y��s��mw�x�f�=l�_�l�����;�\u00026����>�\t�eY�W�����G8����������|\\�\u001e�7n���t�\u001f'",
+				"type": "String"
+			}
+		]
+	}
+}
