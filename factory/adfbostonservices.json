@@ -1,0 +1,9 @@
+{
+	"name": "adfbostonservices",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e0e29339-22cd-4762-94b7-e623a295c239",
+		"tenantId": "57ebccca-a73c-4b36-993b-3a6bde264768"
+	}
+}
